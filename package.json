@@ -1,0 +1,38 @@
+{
+  "name": "repository.chrisism",
+  "version": "1.0.0",
+  "description": "KODI Repository for several addons. Also beta/test versions.",
+  "main": "index.js",
+  "bin": {
+    "repository.chrisism": "cli.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "kodi-addon-builder": "^1.1.1"
+  },
+  "scripts": {
+    "build-only": "addon build",
+    "build": "addon build && addon package",
+    "build-patch": "addon versioning --semver patch && build",
+    "build-minor": "addon versioning --semver minor && build",
+    "build-major": "addon versioning --semver major && build",
+    "build-install": "build && addon install",
+    "build-install-patch": "build-patch && addon install",
+    "build-install-minor": "build-minor && addon install",
+    "build-install-marjor": "build-major && addon install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisism/repository.chrisism.git"
+  },
+  "keywords": [
+    "kodi",
+    "repository"
+  ],
+  "author": "chrisism",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisism/repository.chrisism/issues"
+  },
+  "homepage": "https://github.com/chrisism/repository.chrisism#readme"
+}
