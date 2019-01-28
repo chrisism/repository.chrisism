@@ -4,7 +4,7 @@
   "description": "KODI Repository for several addons. Also beta/test versions.",
   "dependencies": {},
   "devDependencies": {
-    "kodi-addon-builder": "^1.2.0"
+    "kodi-addon-builder": "^1.2.1"
   },
   "scripts": {
     "build": "addon build",
