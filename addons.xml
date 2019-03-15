@@ -133,7 +133,7 @@
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
 </addon>
-<addon id="skin.titan.mod.games.leia" version="18.1.11-alpha.1" name="T i t a n - M O D (GAMES) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
+<addon id="skin.titan.mod.beta.leia" version="18.1.11-alpha.2" name="T i t a n - M O D (BETA) for LEIA" provider-name="mardukl,cartman.dos,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
