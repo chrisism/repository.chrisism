@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-	<addon id="repository.chrisism" name="Chrisism's repository" provider-name="chrisism" version="1.0.0">
+	<addon id="repository.chrisism" name="Chrisism's repository" provider-name="chrisism" version="1.0.1">
     
     <extension name="Chrisism's repository" point="xbmc.addon.repository">
         <info compressed="false">https://raw.githubusercontent.com/chrisism/repository.chrisism/master/addons.xml</info>
