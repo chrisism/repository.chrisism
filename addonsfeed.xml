@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Chrisism's repository</title>
+  <link>https://chrisism.github.io/repository.chrisism/</link>
+  <description>KODI Repository for several addons. Also beta/test versions.</description>
+  <item>
+    <title>plugin.program.AEL 0.10.0-alpha.3</title>
+    <link>https://chrisism.github.io/repository.chrisism/plugin.program.AEL/plugin.program.AEL-0.10.0-alpha.3.zip</link>
+    <description>Advanced Emulator Launcher (dev version)</description>
+  </item>
+  <item>
+    <title>plugin.program.AEL 0.10.0-alpha.4</title>
+    <link>https://chrisism.github.io/repository.chrisism/plugin.program.AEL/plugin.program.AEL-0.10.0-alpha.4.zip</link>
+    <description>Advanced Emulator Launcher (dev version)</description>
+  </item>
+  <item>
+    <title>plugin.program.AEL 0.10.0-alpha.5</title>
+    <link>https://chrisism.github.io/repository.chrisism/plugin.program.AEL/plugin.program.AEL-0.10.0-alpha.5.zip</link>
+    <description>Advanced Emulator Launcher (dev version)</description>
+  </item>
+  <item>
+    <title>plugin.program.AEL 0.10.0-alpha.6</title>
+    <link>https://chrisism.github.io/repository.chrisism/plugin.program.AEL/plugin.program.AEL-0.10.0-alpha.6.zip</link>
+    <description>Advanced Emulator Launcher (dev version)</description>
+  </item>
+</channel>
+
+</rss>
