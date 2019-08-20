@@ -30,7 +30,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.program.AEL" name="Advanced Emulator Launcher (dev version)" version="0.10.0-alpha.11" provider-name="Wintermute0110">
+<addon id="plugin.program.AEL" name="Advanced Emulator Launcher (dev version)" version="0.10.0-alpha.12" provider-name="Wintermute0110">
   <requires>
     <!-- Check addon versions in https://github.com/xbmc/xbmc/tree/master/addons
          Change the branch according to the Kodi version.
