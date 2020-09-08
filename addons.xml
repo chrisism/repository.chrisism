@@ -224,7 +224,7 @@
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
 </addon>
-<addon id="skin.titan.mod.beta.leia" version="18.1.18" name="T i t a n - M O D (BETA) for LEIA" provider-name="marduk,fuchs2568,marcelveldt,mgonzales">
+<addon id="skin.titan.mod.beta.leia" version="18.1.18-alpha.4" name="T i t a n - M O D (BETA) for LEIA" provider-name="marduk,fuchs2568,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.embuary.helper" version="1.1.2"/>
