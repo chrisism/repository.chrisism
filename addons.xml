@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-	<addon id="repository.chrisism" name="Chrisism's repository" provider-name="chrisism" version="1.0.2">
+	<addon id="repository.chrisism" name="Chrisism's repository" provider-name="chrisism" version="1.0.4">
     
     <extension name="Chrisism's repository" point="xbmc.addon.repository">
         <info compressed="false">https://github.com/chrisism/repository.chrisism/raw/master/addons.xml</info>
@@ -13,6 +13,94 @@
         <platform>all</platform>
     </extension>
 </addon>
+
+<addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension name="bingie repository" point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Home of Titan BINGIE</summary>
+		<description lang="en">BINGIE repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.marduk" name="Marduk's KODI repository" provider-name="marduk" version="1.0.3">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension name="Marduk's KODI repository" point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/marduklev/repository.marduk/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/marduklev/repository.marduk/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's and other Kodi addons</summary>
+		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's and other Kodi addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.0" provider-name="rmrector">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Rector Repository">
+		<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A little place for my stuff.</summary>
+		<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+		<platform>all</platform>
+		<disclaimer/>
+	</extension>
+</addon>
+
+<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.6" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains the Kodi Emby addon along with compatible Kodi skins</description>
+		<disclaimer/>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
     <addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.2.0" provider-name="chrisism">
 	<extension point="kodi.resource.images" compile="true" type="studios"/>
 	<requires>
@@ -133,7 +221,7 @@
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
 </addon>
-<addon id="skin.titan.mod.beta.leia" version="18.1.18-alpha.3" name="T i t a n - M O D (BETA) for LEIA" provider-name="marduk,fuchs2568,marcelveldt,mgonzales">
+<addon id="skin.titan.mod.beta.leia" version="18.1.18-alpha.4" name="T i t a n - M O D (BETA) for LEIA" provider-name="marduk,fuchs2568,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.embuary.helper" version="1.1.2"/>
