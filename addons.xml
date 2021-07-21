@@ -493,4 +493,24 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
+</addon><addon id="script.module.AEL" name="Advanced Emulator Launcher Library Module" version="0.10.0" provider-name="Wintermute0110">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AEL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AEL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>wintermute0110@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/Wintermute0110/plugin.program.AEL/wiki</website>
+    <source>https://github.com/Wintermute0110/plugin.program.AEL</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
 </addon></addons>
