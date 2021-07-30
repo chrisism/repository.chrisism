@@ -493,30 +493,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.retroarchlauncher" name="Retroarch Launcher for AEL" version="0.0.1" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.AEL" version="0.10.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-      <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Launch ROMs from AEL with Retroarch</summary>
-    <description lang="en_GB">Launcher plugin for AEL.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/Wintermute0110/plugin.program.AEL/wiki</website>
-    <source>https://github.com/chrisism/script.ael.retroarchlauncher</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>See changelog.txt for information about the latest release.</news>
-  </extension>
-</addon><addon id="script.module.ael" name="Advanced Emulator Launcher Library Module" version="0.10.0" provider-name="Wintermute0110">
+</addon>W<addon id="script.module.ael" name="Advanced Emulator Launcher Library Module" version="0.10.0" provider-name="Wintermute0110">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -530,6 +507,29 @@
     <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
     <website>https://github.com/Wintermute0110/plugin.program.AEL/wiki</website>
     <source>https://github.com/Wintermute0110/plugin.program.AEL</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
+</addon><addon id="script.ael.retroarchlauncher" name="Retroarch Launcher for AEL" version="0.0.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.ael" version="0.10.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+      <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Launch ROMs from AEL with Retroarch</summary>
+    <description lang="en_GB">Launcher plugin for AEL.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/Wintermute0110/plugin.program.AEL/wiki</website>
+    <source>https://github.com/chrisism/script.ael.retroarchlauncher</source>
     <assets>
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
