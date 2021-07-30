@@ -2,7 +2,7 @@
 <addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.AEL" version="0.10.0"/>
+      <import addon="script.module.ael" version="0.10.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
