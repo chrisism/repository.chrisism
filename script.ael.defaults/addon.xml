@@ -5,7 +5,7 @@
       <import addon="script.module.ael" version="0.10.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
+      <provides>game</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Default plugins for AEL.</summary>
