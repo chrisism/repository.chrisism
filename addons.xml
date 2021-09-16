@@ -390,4 +390,30 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
+</addon><addon id="script.ael.steam" name="Steam library plugin for AEL" version="0.0.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.ael" version="0.10.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Steam scanner and launcher for AEL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scanner and launcher plugin for AEL. It can scan and launch games from your
+    Steam library.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.ael.steam</website>
+    <source>https://github.com/chrisism/script.ael.steam</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
 </addon></addons>
