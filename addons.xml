@@ -261,7 +261,7 @@
         </news>
 	</extension>
 </addon>
-<addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.2" provider-name="chrisism">
+<addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
@@ -364,7 +364,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.tgdbscraper" name="TGDB scraper for AEL" version="0.0.2" provider-name="chrisism">
+</addon><addon id="script.ael.tgdbscraper" name="TGDB scraper for AEL" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
@@ -442,7 +442,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.mobygames" name="Mobygames scraper plugin for AEL" version="0.0.2" provider-name="chrisism">
+</addon><addon id="script.ael.mobygames" name="Mobygames scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
@@ -494,7 +494,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.screenscraper" name="Screenscraper scraper plugin for AEL" version="0.0.2" provider-name="chrisism">
+</addon><addon id="script.ael.screenscraper" name="Screenscraper scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
@@ -519,7 +519,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.arcadedb" name="ArcadeDB scraper plugin for AEL" version="0.0.2" provider-name="chrisism">
+</addon><addon id="script.ael.arcadedb" name="ArcadeDB scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
@@ -544,7 +544,7 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.googlesearch" name="Googlesearch scraper plugin for AEL" version="0.0.2" provider-name="chrisism">
+</addon><addon id="script.ael.googlesearch" name="Googlesearch scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.ael" version="0.10.0"/>
