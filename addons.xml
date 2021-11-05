@@ -261,10 +261,10 @@
         </news>
 	</extension>
 </addon>
-<addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.3" provider-name="chrisism">
+<addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.ael" version="0.10.0"/>
+      <import addon="script.module.ael" version="0.10.2"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
       <provides>game</provides>
@@ -494,10 +494,10 @@
     </assets>
     <news>See changelog.txt for information about the latest release.</news>
   </extension>
-</addon><addon id="script.ael.screenscraper" name="Screenscraper scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
+</addon><addon id="script.ael.screenscraper" name="Screenscraper scraper plugin for AEL" version="0.0.4" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.ael" version="0.10.0"/>
+      <import addon="script.module.ael" version="0.10.2"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>game</provides>
