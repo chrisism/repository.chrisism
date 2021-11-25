@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.ael" name="Advanced Emulator Launcher Library Module" version="0.10.6" provider-name="Wintermute0110">
+<addon id="script.module.ael" name="Advanced Emulator Launcher Library Module" version="0.10.7" provider-name="Wintermute0110">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
   </requires>
