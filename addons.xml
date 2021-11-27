@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <addons>
     <addon id="repository.chrisism" name="Chrisism's repository" provider-name="chrisism" version="1.0.4">
         <extension name="Chrisism's repository" point="xbmc.addon.repository">
@@ -14,7 +13,7 @@
     </addon>
     <addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
         <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
+            <import addon="xbmc.addon" version="12.0.0" />
         </requires>
         <extension name="bingie repository" point="xbmc.addon.repository">
             <info compressed="false">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml</info>
@@ -29,7 +28,7 @@
     </addon>
     <addon id="repository.marduk" name="Marduk's KODI repository" provider-name="marduk" version="1.0.3">
         <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
+            <import addon="xbmc.addon" version="12.0.0" />
         </requires>
         <extension name="Marduk's KODI repository" point="xbmc.addon.repository">
             <info compressed="false">https://raw.githubusercontent.com/marduklev/repository.marduk/master/addons.xml</info>
@@ -44,7 +43,7 @@
     </addon>
     <addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.0" provider-name="rmrector">
         <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
+            <import addon="xbmc.addon" version="12.0.0" />
         </requires>
         <extension point="xbmc.addon.repository" name="Rector Repository">
             <info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
@@ -55,12 +54,12 @@
             <summary lang="en">A little place for my stuff.</summary>
             <description lang="en">I'm Rector, I do stuff, I put it here.</description>
             <platform>all</platform>
-            <disclaimer/>
+            <disclaimer />
         </extension>
     </addon>
     <addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.6" provider-name="null_pointer,angelblue05,sualfred,im85288,xnappo">
         <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
+            <import addon="xbmc.addon" version="12.0.0" />
         </requires>
         <extension point="xbmc.addon.repository" name="Kodi Emby Repository">
             <dir>
@@ -87,7 +86,7 @@
         <extension point="xbmc.addon.metadata">
             <summary>Kodi Emby Addon Repository</summary>
             <description>This repo contains the Kodi Emby addon along with compatible Kodi skins</description>
-            <disclaimer/>
+            <disclaimer />
             <platform>all</platform>
             <assets>
                 <icon>resources/icon.png</icon>
@@ -96,9 +95,9 @@
         </extension>
     </addon>
     <addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.2.0" provider-name="chrisism">
-        <extension point="kodi.resource.images" compile="true" type="studios"/>
+        <extension point="kodi.resource.images" compile="true" type="studios" />
         <requires>
-            <import addon="kodi.resource" version="1.0.0"/>
+            <import addon="kodi.resource" version="1.0.0" />
         </requires>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">Game Studio Icons (grayscale)</summary>
@@ -113,22 +112,17 @@
     </addon>
     <addon id="plugin.program.AML.dev" name="Advanced MAME Launcher (dev version)" version="0.9.9-alpha" provider-name="Wintermute0110">
         <requires>
-            <!-- Check addon versions in https://github.com/xbmc/xbmc/tree/master/addons
-          Change the branch according to the Kodi version.
-            -->
-            <!-- 2.25.0 Krypton 17 -->
-            <import addon="xbmc.python" version="2.25.0"/>
-            <import addon="script.module.pil" version="1.1.7"/>
+            
+            
+            <import addon="xbmc.python" version="2.25.0" />
+            <import addon="script.module.pil" version="1.1.7" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>executable game</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <!-- This must be commented when releasing the addon.
-          Kodi must be restarted if this setting is changed.
-          See https://github.com/xbmc/xbmc/pull/13814
-            -->
-            <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
+            
+            
             <summary lang="en_GB">Kodi meets MAME!</summary>
             <description lang="en_GB">MAME front-end for Kodi that supports both MAME machines and Software Lists. For help look at the Advanced MAME Launcher thread in the Kodi forum.</description>
             <platform>android freebsd ios linux osx windows</platform>
@@ -151,12 +145,8 @@
     </addon>
     <addon id="plugin.program.advanced.emulator.launcher" name="Advanced Emulator Launcher" version="0.9.8-alpha.0" provider-name="Wintermute0110">
         <requires>
-            <!-- See https://github.com/xbmc/xbmc/blob/master/addons/xbmc.python/addon.xml
-          2.25.0  Krypton 17.x
-          x.yy.z  Leia 18.x
-          x.yy.z  M**** 19.x
-          -->
-            <import addon="xbmc.python" version="2.25.0"/>
+            
+            <import addon="xbmc.python" version="2.25.0" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>executable</provides>
@@ -182,52 +172,52 @@
     </addon>
     <addon id="skin.titan.mod.beta.leia" version="18.1.18-alpha.4" name="T i t a n - M O D (BETA) for LEIA" provider-name="marduk,fuchs2568,marcelveldt,mgonzales">
         <requires>
-            <import addon="xbmc.gui" version="5.14.0"/>
-            <import addon="script.embuary.helper" version="1.1.2"/>
-            <import addon="script.skinshortcuts" version="1.0.17"/>
-            <import addon="script.skin.helper.service" version="1.0.0"/>
-            <import addon="script.skin.helper.widgets" version="1.0.0"/>
-            <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
-            <import addon="resource.images.studios.coloured" version="0.0.9"/>
-            <import addon="resource.images.studios.white" version="0.0.15"/>
-            <import addon="resource.images.languageflags.colour" version="0.0.4"/>
-            <import addon="resource.uisounds.titan.modern" version="1.0.0"/>
-            <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0"/>
-            <import addon="resource.images.skinicons.wide" version="1.0.0"/>
-            <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
+            <import addon="xbmc.gui" version="5.14.0" />
+            <import addon="script.embuary.helper" version="1.1.2" />
+            <import addon="script.skinshortcuts" version="1.0.17" />
+            <import addon="script.skin.helper.service" version="1.0.0" />
+            <import addon="script.skin.helper.widgets" version="1.0.0" />
+            <import addon="script.skin.helper.backgrounds" version="1.0.0" />
+            <import addon="resource.images.studios.coloured" version="0.0.9" />
+            <import addon="resource.images.studios.white" version="0.0.15" />
+            <import addon="resource.images.languageflags.colour" version="0.0.4" />
+            <import addon="resource.uisounds.titan.modern" version="1.0.0" />
+            <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0" />
+            <import addon="resource.images.skinicons.wide" version="1.0.0" />
+            <import addon="resource.images.backgroundoverlays.basic" version="1.0.0" />
         </requires>
         <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
-            <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+            <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="bg_BG">Обликът "Titan MOD BETA for Kodi Leia" за MediaPortal адаптиран за Kodi, с много добавени функции.</summary>
-            <summary lang="de_DE">MediaPortal's Titan MOD BETA for Kodi Leia Skin portiert für Kodi mit jeder Menge neuer Funktionen und einer vollständigen MediaBrowser Integration.</summary>
+            <summary lang="bg_BG">&#1054;&#1073;&#1083;&#1080;&#1082;&#1098;&#1090; "Titan MOD BETA for Kodi Leia" &#1079;&#1072; MediaPortal &#1072;&#1076;&#1072;&#1087;&#1090;&#1080;&#1088;&#1072;&#1085; &#1079;&#1072; Kodi, &#1089; &#1084;&#1085;&#1086;&#1075;&#1086; &#1076;&#1086;&#1073;&#1072;&#1074;&#1077;&#1085;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;.</summary>
+            <summary lang="de_DE">MediaPortal's Titan MOD BETA for Kodi Leia Skin portiert f&#252;r Kodi mit jeder Menge neuer Funktionen und einer vollst&#228;ndigen MediaBrowser Integration.</summary>
             <summary lang="en_AU">Titan MOD LEIA for Kodi Leia skin ported to Kodi enriched with lot's of features.</summary>
             <summary lang="en_GB">MediaPortal's Titan MOD LEIA for Kodi Leia skin ported to Kodi enriched with lot's of features.</summary>
             <summary lang="en_NZ">MediaPortal's Titan MOD LEIA for Kodi Leia skin ported to Kodi enriched with lot's of features.</summary>
             <summary lang="en_US">MediaPortal's Titan MOD LEIA for Kodi Leia skin ported to Kodi enriched with lot's of features.</summary>
             <summary lang="es_ES">El skin Titan MOD LEIA for Kodi Leia de MediaPortal, portado a Kodi y enriquecido con muchas funciones.</summary>
             <summary lang="fi_FI">Perustuu MediaPortalin Titan MOD LEIA for Kodi Leia-ulkoasuun.</summary>
-            <summary lang="fr_FR">L'habillage Titan MOD LEIA for Kodi Leia de MediaPortal adapté à Kodi et enrichi avec de nombreuses fonctionnalités</summary>
-            <summary lang="he_IL">המעטפת Titan MOD LEIA for Kodi Leia שבמקור נוצרה עבור MediaPortal, שודרגה ביכולות רבות ושילוב מלא של MediaBrowser.</summary>
-            <summary lang="hr_HR">MediaPortal Titan MOD LEIA for Kodi Leia presvlaka prebačena na Kodi i obogaćena s puno dodatnih mogućnosti.</summary>
+            <summary lang="fr_FR">L'habillage Titan MOD LEIA for Kodi Leia de MediaPortal adapt&#233; &#224; Kodi et enrichi avec de nombreuses fonctionnalit&#233;s</summary>
+            <summary lang="he_IL">&#1492;&#1502;&#1506;&#1496;&#1508;&#1514; Titan MOD LEIA for Kodi Leia &#1513;&#1489;&#1502;&#1511;&#1493;&#1512; &#1504;&#1493;&#1510;&#1512;&#1492; &#1506;&#1489;&#1493;&#1512; MediaPortal, &#1513;&#1493;&#1491;&#1512;&#1490;&#1492; &#1489;&#1497;&#1499;&#1493;&#1500;&#1493;&#1514; &#1512;&#1489;&#1493;&#1514; &#1493;&#1513;&#1497;&#1500;&#1493;&#1489; &#1502;&#1500;&#1488; &#1513;&#1500; MediaBrowser.</summary>
+            <summary lang="hr_HR">MediaPortal Titan MOD LEIA for Kodi Leia presvlaka preba&#269;ena na Kodi i oboga&#263;ena s puno dodatnih mogu&#263;nosti.</summary>
             <summary lang="it_IT">La skin di MediaPortal Titan MOD LEIA for Kodi Leia arriva su Kodi arricchita con molte feature e piena integrazione di MediaBrowser</summary>
-            <summary lang="lt_LT">MediaPortal'o Titan MOD LEIA for Kodi Leia teminė išvaizda perkelta į Kodi ir papildyta daugybe funkcijų bei pilna MediaBrowser integracija.</summary>
+            <summary lang="lt_LT">MediaPortal'o Titan MOD LEIA for Kodi Leia temin&#279; i&#353;vaizda perkelta &#303; Kodi ir papildyta daugybe funkcij&#371; bei pilna MediaBrowser integracija.</summary>
             <summary lang="ms_MY">Kulit Titan MOD LEIA for Kodi Leia MediaPortal diport ke Kodi ditambahbaik dengan pelbagai fitur.</summary>
             <summary lang="nl_NL">De Titan MOD LEIA for Kodi Leiaskin van MediaPortal is geconverteerd naar Kodi en verrijkt met talloze functionaliteiten</summary>
-            <summary lang="pl_PL">Skóra Titan MOD LEIA for Kodi Leia przeniesiona z programu MediaPortal do Kodi wzbogacona o dodatkowe funkcje.</summary>
-            <summary lang="pt_BR">A skin Titan MOD LEIA for Kodi Leia portada do MediaPortal para o Kodi foi enriquecida com várias funcionalidades.</summary>
-            <summary lang="ru_RU">Обложка Titan MOD LEIA for Kodi Leia была портирована с MediaPortal на Kodi и обзавелась множеством новых возможностей</summary>
-            <summary lang="sr_RS">Titan MOD LEIA for Kodi Leia маска MediaPortala портована за Kodi обогаћена са доста карактеристика.</summary>
-            <summary lang="sr_RS@latin">Titan MOD LEIA for Kodi Leia maska MediaPortala portovana za Kodi obogaćena sa dosta karakteristika.</summary>
-            <summary lang="tr_TR">MediaPortal'ın Titan MOD LEIA for Kodi Leia dış görünümü, pek çok özellikle zenginleştirilerek Kodi'ye aktarıldı.</summary>
-            <summary lang="zh_CN">MediaPortal's Titan MOD LEIA for Kodi Leia 皮肤富含大量的功能。</summary>
+            <summary lang="pl_PL">Sk&#243;ra Titan MOD LEIA for Kodi Leia przeniesiona z programu MediaPortal do Kodi wzbogacona o dodatkowe funkcje.</summary>
+            <summary lang="pt_BR">A skin Titan MOD LEIA for Kodi Leia portada do MediaPortal para o Kodi foi enriquecida com v&#225;rias funcionalidades.</summary>
+            <summary lang="ru_RU">&#1054;&#1073;&#1083;&#1086;&#1078;&#1082;&#1072; Titan MOD LEIA for Kodi Leia &#1073;&#1099;&#1083;&#1072; &#1087;&#1086;&#1088;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1072; &#1089; MediaPortal &#1085;&#1072; Kodi &#1080; &#1086;&#1073;&#1079;&#1072;&#1074;&#1077;&#1083;&#1072;&#1089;&#1100; &#1084;&#1085;&#1086;&#1078;&#1077;&#1089;&#1090;&#1074;&#1086;&#1084; &#1085;&#1086;&#1074;&#1099;&#1093; &#1074;&#1086;&#1079;&#1084;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1077;&#1081;</summary>
+            <summary lang="sr_RS">Titan MOD LEIA for Kodi Leia &#1084;&#1072;&#1089;&#1082;&#1072; MediaPortala &#1087;&#1086;&#1088;&#1090;&#1086;&#1074;&#1072;&#1085;&#1072; &#1079;&#1072; Kodi &#1086;&#1073;&#1086;&#1075;&#1072;&#1115;&#1077;&#1085;&#1072; &#1089;&#1072; &#1076;&#1086;&#1089;&#1090;&#1072; &#1082;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072;.</summary>
+            <summary lang="sr_RS@latin">Titan MOD LEIA for Kodi Leia maska MediaPortala portovana za Kodi oboga&#263;ena sa dosta karakteristika.</summary>
+            <summary lang="tr_TR">MediaPortal'&#305;n Titan MOD LEIA for Kodi Leia d&#305;&#351; g&#246;r&#252;n&#252;m&#252;, pek &#231;ok &#246;zellikle zenginle&#351;tirilerek Kodi'ye aktar&#305;ld&#305;.</summary>
+            <summary lang="zh_CN">MediaPortal's Titan MOD LEIA for Kodi Leia &#30382;&#32932;&#23500;&#21547;&#22823;&#37327;&#30340;&#21151;&#33021;&#12290;</summary>
             <platform>all</platform>
             <license>GPL v2.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=330749</forum>
             <website>http://forum.kodi.tv/forumdisplay.php?fid=212</website>
-            <email/>
-            <source/>
+            <email />
+            <source />
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -257,8 +247,8 @@
     </addon>
     <addon id="script.ael.defaults" name="Advanced Emulator Launcher: Default plugins" version="0.0.4" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.2"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.2" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -279,32 +269,11 @@
             <news>See changelog.txt for information about the latest release.</news>
         </extension>
     </addon>
-    <addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="0.1.0" provider-name="chrisism">
-        <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-        </requires>
-        <extension point="xbmc.python.module" library="lib"/>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Library module for AKL plugin.</summary>
-            <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-            <platform>android freebsd ios linux osx windows</platform>
-            <license>GNU General Public License version 2</license>
-            <email>crizizz@gmail.com</email>
-            <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-            <website>https://github.com/chrisism/script.module.akl</website>
-            <source>https://github.com/chrisism/script.module.akl</source>
-            <assets>
-                <icon>media/icon.png</icon>
-                <fanart>media/fanart.jpg</fanart>
-            </assets>
-            <news>See changelog.txt for information about the latest release.</news>
-        </extension>
-    </addon>
     <addon id="script.module.ael" name="Advanced Emulator Launcher Library Module" version="0.10.7" provider-name="Wintermute0110">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
         </requires>
-        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.python.module" library="lib" />
         <extension point="xbmc.addon.metadata">
             <summary lang="en_GB">Library module for AEL plugin.</summary>
             <description lang="en_GB">Python module to be used as a library for AEL plugins.</description>
@@ -323,8 +292,8 @@
     </addon>
     <addon id="script.ael.retroarchlauncher" name="Retroarch Launcher for AEL" version="0.0.1" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -347,21 +316,17 @@
     </addon>
     <addon id="plugin.program.AEL" name="Advanced Emulator Launcher (dev version)" version="0.10.6" provider-name="Wintermute0110">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.routing" version="0.2.3"/>
-            <import addon="script.module.ael" version="0.10.6"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.routing" version="0.2.3" />
+            <import addon="script.module.ael" version="0.10.6" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>game</provides>
         </extension>
-        <extension point="xbmc.service" library="service.py"/>
+        <extension point="xbmc.service" library="service.py" />
         <extension point="xbmc.addon.metadata">
-            <!--
-          This must be commented when releasing the addon.
-          Kodi must be restarted if this setting is changed.
-          See https://github.com/xbmc/xbmc/pull/13814
-      -->
-            <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
+            
+            
             <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
             <description lang="en_GB">Multi-emulator front-end and general application launcher for Kodi. Includes offline scrapers for MAME and No-Intro ROM sets and also supports scrapping ROM metadata and artwork online. ROM auditing for No-Intro ROMs using No-Intro or Redump XML DAT files. Launching of games and standalone applications is also available.</description>
             <platform>android freebsd ios linux osx windows</platform>
@@ -382,8 +347,8 @@
     </addon>
     <addon id="script.ael.tgdbscraper" name="TGDB scraper for AEL" version="0.0.3" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -409,8 +374,8 @@
     </addon>
     <addon id="script.ael.steam" name="Steam library plugin for AEL" version="0.0.3" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.2"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.2" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -436,8 +401,8 @@
     </addon>
     <addon id="script.ael.nvgamestream" name="Nvidia Gamestream plugin for AEL" version="0.0.1" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>executable</provides>
@@ -460,12 +425,11 @@
             </assets>
             <news>See changelog.txt for information about the latest release.</news>
         </extension>
-    </addon
-  >
+    </addon>
     <addon id="script.ael.mobygames" name="Mobygames scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -491,8 +455,8 @@
     </addon>
     <addon id="script.ael.steamdb" name="SteamDB scraper plugin for AEL" version="0.0.2" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -518,8 +482,8 @@
     </addon>
     <addon id="script.ael.screenscraper" name="Screenscraper scraper plugin for AEL" version="0.0.4" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.2"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.2" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -544,8 +508,8 @@
     </addon>
     <addon id="script.ael.arcadedb" name="ArcadeDB scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -570,8 +534,8 @@
     </addon>
     <addon id="script.ael.googlesearch" name="Googlesearch scraper plugin for AEL" version="0.0.3" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -596,8 +560,8 @@
     </addon>
     <addon id="script.ael.offlinescraper" name="Advanced Emulator Launcher: Offline scraper" version="0.0.1" provider-name="chrisism">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.ael" version="0.10.0"/>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.ael" version="0.10.0" />
         </requires>
         <extension point="xbmc.python.script" library="default.py">
             <provides>game</provides>
@@ -618,4 +582,24 @@
             <news>See changelog.txt for information about the latest release.</news>
         </extension>
     </addon>
-</addons>
+<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="0.1.0" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>See changelog.txt for information about the latest release.</news>
+  </extension>
+</addon></addons>
