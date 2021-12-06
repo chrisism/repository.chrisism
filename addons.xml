@@ -604,12 +604,12 @@
   </extension>
 </addon>
 
-<addon id="dev.repository.chrisism" name="Chrisism's BETA repository" provider-name="chrisism" version="1.0.0">
+<addon id="repository.chrisism.dev" name="Chrisism's BETA repository" provider-name="chrisism" version="1.0.0">
     
     <extension name="Chrisism's BETA repository" point="xbmc.addon.repository">
-        <info compressed="false">https://github.com/chrisism/dev.repository.chrisism/raw/main/addons.xml</info>
-        <checksum>https://github.com/chrisism/dev.repository.chrisism/raw/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/chrisism/dev.repository.chrisism/raw/main/</datadir>
+        <info compressed="false">https://github.com/chrisism/repository.chrisism.dev/raw/main/addons.xml</info>
+        <checksum>https://github.com/chrisism/repository.chrisism.dev/raw/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/chrisism/repository.chrisism.dev/raw/main/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Kodi repository for BETA version addons</summary>
