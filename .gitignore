@@ -2,3 +2,4 @@
 /node_modules
 .addon
 package-lock.json
+.pytest_cache/
