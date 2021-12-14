@@ -604,7 +604,7 @@
   </extension>
 </addon>
 
-<addon id="repository.chrisism.dev" name="Chrisism's BETA repository" provider-name="chrisism" version="1.0.0">
+<addon id="repository.chrisism.dev" name="Chrisism's BETA repository" provider-name="chrisism" version="1.0.1">
     
     <extension name="Chrisism's BETA repository" point="xbmc.addon.repository">
         <info compressed="false">https://github.com/chrisism/repository.chrisism.dev/raw/main/addons.xml</info>
