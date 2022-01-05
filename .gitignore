@@ -3,3 +3,4 @@
 .addon
 package-lock.json
 .pytest_cache/
+.vscode/
