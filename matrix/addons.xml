@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <addons>
     <addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
         <requires>
@@ -163,27 +162,6 @@
             <news>See changelog.txt for information about the latest release.</news>
         </extension>
     </addon>
-<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="0.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>See changelog.txt for information about the latest release.</news>
-  </extension>
-</addon>
 <addon id="repository.chrisism.dev" name="Chrisism's BETA repository" provider-name="chrisism" version="1.0.2">
     <requires>
         <import addon="xbmc.addon" version="12.0.0" />
@@ -210,4 +188,24 @@
         </assets>
     </extension>
 </addon>
-</addons>
+<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.2" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
+  </extension>
+</addon></addons>
