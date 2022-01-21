@@ -259,7 +259,7 @@
     </assets>
     <news>[B]v1.0.3[/B][CR]Bug fixes:[CR] - Fix for building scraper cache dirs.[CR][CR][B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
   </extension>
-</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="0.1.0" provider-name="chrisism">
+</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="0.1.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.3" />
