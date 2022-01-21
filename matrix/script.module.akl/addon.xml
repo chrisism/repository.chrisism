@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.2" provider-name="chrisism">
+<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -17,6 +17,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
+    <news>[B]v1.0.3[/B][CR]Bug fixes:[CR] - Fix for building scraper cache dirs.[CR][CR][B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
   </extension>
 </addon>

@@ -188,27 +188,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.2" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
-  </extension>
-</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.0.0" provider-name="chrisism">
+<addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.0.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.2" />
@@ -258,5 +238,25 @@
       <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
     </assets>
     <news>[B]v1.0.0[/B][CR] - Initial release of the new AKL fork[CR]</news>
+  </extension>
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.3" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[B]v1.0.3[/B][CR]Bug fixes:[CR] - Fix for building scraper cache dirs.[CR][CR][B]v1.0.1[/B][CR] - Initial release of the new AKL fork</news>
   </extension>
 </addon></addons>
