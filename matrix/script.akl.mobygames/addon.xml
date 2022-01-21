@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="0.1.1" provider-name="chrisism">
+<addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="0.1.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.akl" version="1.0.3"/>
@@ -10,7 +10,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Mobygames scraper for AKL plugin.</summary>
     <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can scan and launch games from the
+    This module can be used as a scraper plugin for AKL. It can scan metadata and assets from the
     Mobygames database.
     </description>
     <platform>all</platform>
