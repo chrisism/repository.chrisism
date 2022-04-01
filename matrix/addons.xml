@@ -313,31 +313,9 @@
     </assets>
     <news>The initial release of Screenscraper plugin for the AKL fork.</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.4" provider-name="chrisism">
+</addon><addon id="repository.anon.iptv" name="Dutch IPTV Repository" version="1.6.0" provider-name="Anon">
   <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" version="2.22.0.1" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Code fix for wizard dialogs.[CR]- Updated HTTP calls to use requests module.[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
-  </extension>
-</addon>
-<addon id="repository.anon.iptv" name="Dutch IPTV Repository" version="1.6.0" provider-name="Anon">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
+    <import addon="xbmc.addon" version="12.0.0" />
   </requires>
   <extension point="xbmc.addon.repository" name="Dutch IPTV Repository">
     <dir minversion="19.9.0">
@@ -363,4 +341,25 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
+<addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.5" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.22.0.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Bug fixes[/UPPERCASE][CR]- Code fix for wizard dialogs.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching ([UPPERCASE]14)[/UPPERCASE][CR]- Use translated path for execution log files ([UPPERCASE]15)[/UPPERCASE][CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Fix for scraper cache dirs.</news>
+  </extension>
+</addon></addons>
