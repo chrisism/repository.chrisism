@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.0" provider-name="chrisism,Wintermute0110">
+<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.0.1" provider-name="chrisism,Wintermute0110">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.routing" version="0.2.3"/>
-      <import addon="script.module.akl" version="1.0.2"/>
+      <import addon="script.module.akl" version="1.0.5"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
       <provides>executable game</provides>
@@ -25,6 +25,6 @@
       <screenshot>media/Estuary_ROM_Console.jpg</screenshot>
       <screenshot>media/Estuary_ROM_MAME.jpg</screenshot>
     </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of the new AKL fork[CR]</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
   </extension>
 </addon>
