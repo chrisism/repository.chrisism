@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.0.0" provider-name="chrisism">
+<addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.0.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.akl" version="1.0.3"/>
+      <import addon="script.module.akl" version="1.0.8"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>game</provides>
@@ -23,6 +23,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[B]v1.0.0[/B][CR] - Initial release of AKL plugin</news>
+    <news>## Current[CR]- Updated dependencies[CR]- Fix for nplayers metadata[CR]## Previous[CR]- Initial release of the MobyGames AKL plugin</news>
   </extension>
 </addon>
