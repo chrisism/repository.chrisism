@@ -496,11 +496,10 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR][UPPERCASE]Previous: v1.0.0[/UPPERCASE][CR]- The initial release of the new AKL fork.</news>
   </extension>
-</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.0.1" provider-name="chrisism">
+</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.0.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.8" />
-      <import addon="plugin.program.akl" version="1.1.0" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
       <provides>game</provides>
