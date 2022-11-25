@@ -419,32 +419,6 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
-</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.0.1" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.8" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Mobygames scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can scan metadata and assets from the
-    Mobygames database.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.mobygames</website>
-    <source>https://github.com/chrisism/script.akl.mobygames</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>## Current[CR]- Updated dependencies[CR]- Fix for nplayers metadata[CR]## Previous[CR]- Initial release of the MobyGames AKL plugin</news>
-  </extension>
 </addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.9" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -519,5 +493,31 @@ from The Games DB (TGDB).
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies[CR][UPPERCASE]Previous[/UPPERCASE][CR]- The initial release of TGDB plugin for the AKL fork.</news>
+  </extension>
+</addon><addon id="script.akl.mobygames" name="Mobygames scraper plugin for AKL" version="2.1.0" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.9" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Mobygames scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It can scan metadata and assets from the
+    Mobygames database.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.mobygames</website>
+    <source>https://github.com/chrisism/script.akl.mobygames</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added asset 'manual'[CR]- Added PEGI rating[UPPERCASE]Previous[/UPPERCASE][CR]- Updated dependencies[CR]- Fix for nplayers metadata</news>
   </extension>
 </addon></addons>
