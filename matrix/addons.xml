@@ -225,33 +225,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="0.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.5" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Scraper module for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can be used to scrape metadata and assets
-    from The Games DB (TGDB).
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.tgdbscraper</website>
-    <source>https://github.com/chrisism/script.akl.tgdbscraper</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>The initial release of TGDB plugin for the AKL fork.</news>
-  </extension>
-</addon><addon id="script.akl.steamgriddb" name="SteamGridDB scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
+<addon id="script.akl.steamgriddb" name="SteamGridDB scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.akl" version="1.0.5" />
@@ -519,5 +493,31 @@
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections[CR]- Proper icon/thumb mapping for virtual collections[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR]- Fixed virtual collections (Favs, Most recent ..)[CR]- Fixed scraping ROM assets only</news>
+  </extension>
+</addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.0.9" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Scraper module for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It can be used to scrape metadata and assets
+from The Games DB (TGDB).
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.tgdbscraper</website>
+    <source>https://github.com/chrisism/script.akl.tgdbscraper</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies[CR][UPPERCASE]Previous[/UPPERCASE][CR]- The initial release of TGDB plugin for the AKL fork.</news>
   </extension>
 </addon></addons>
