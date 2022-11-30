@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.2.0" provider-name="chrisism">
+<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.2.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.routing" version="0.2.3"/>
@@ -25,6 +25,6 @@
       <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections[CR]- Proper icon/thumb mapping for virtual collections[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR]- Fixed virtual collections (Favs, Most recent ..)[CR]- Fixed scraping ROM assets only</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- More details about addon plugins[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections[CR]- Proper icon/thumb mapping for virtual collections[CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR]- Fixed virtual collections (Favs, Most recent ..)[CR]- Fixed scraping ROM assets only</news>
   </extension>
 </addon>
