@@ -419,27 +419,6 @@
     </assets>
     <news>First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.9" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" version="2.22.0.1" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[UPPERCASE]In previous releases[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
-  </extension>
 </addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.0.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -519,5 +498,26 @@ from The Games DB (TGDB).
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- More details about addon plugins[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections[CR]- Proper icon/thumb mapping for virtual collections[CR]- Virtual categories now render items from database[CR]- Add and execute single instance ROMs or Games[CR]- Added an overview option with installed plugins[CR]- Fix adding tags to ROMs[CR]- Minor bugfixes[CR]- Updated dependency[CR]- Fixed virtual collections (Favs, Most recent ..)[CR]- Fixed scraping ROM assets only</news>
+  </extension>
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.0.10" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.22.0.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[UPPERCASE]In previous releases[/UPPERCASE][CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings[CR]- Refactored executors to accept args and kwargs.[CR]- Split android executor into a shell version and StartActivity version.[CR]- Updated HTTP calls to use requests module.[CR]- Support for joystick enable/disable when launching (#14)</news>
   </extension>
 </addon></addons>
