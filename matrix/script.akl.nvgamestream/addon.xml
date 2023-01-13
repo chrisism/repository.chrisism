@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.2" provider-name="chrisism">
+<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.3" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.akl" version="1.0.8"/>
@@ -24,6 +24,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>First official release of this Nvidia gamestream plugins for AKL.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Nvidia gamestream plugins for AKL.</news>
   </extension>
 </addon>
