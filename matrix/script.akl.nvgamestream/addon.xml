@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.0.3" provider-name="chrisism">
+<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.akl" version="1.0.8"/>
@@ -10,9 +10,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Nvidia Gamestream scanner and launcher for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
-    Nvidia Gamestream library. This plugin needs and is executed from within AKL.
+    <description lang="en_GB">This module can be used as a scanner and launcher plugin for AKL. It can scan and launch games from your
+Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </description>
     <platform>all</platform>
     <license>GNU General Public License version 2</license>
@@ -24,6 +23,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module[UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Nvidia gamestream plugins for AKL.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for Sunshine gamestream server[UPPERCASE]Previous[/UPPERCASE][CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
   </extension>
 </addon>
