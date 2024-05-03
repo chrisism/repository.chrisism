@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
+<addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.akl" version="1.0.5"/>
+      <import addon="script.module.akl" version="1.1.07"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>game</provides>
@@ -22,6 +22,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>First official release of this ArcadeDB plugin for AKL.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
   </extension>
 </addon>
