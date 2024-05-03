@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.akl.gamefaqs" name="GameFAQs scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.akl" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">GameFAQs scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.akl.gamefaqs</website>
+    <source>https://github.com/chrisism/script.akl.gamefaqs</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
+  </extension>
+</addon>
