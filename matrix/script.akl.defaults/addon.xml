@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.1.0" provider-name="chrisism">
+<addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.2.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.akl" version="1.0.11"/>
+      <import addon="script.module.akl" version="1.1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
       <provides>game</provides>
@@ -20,6 +20,6 @@
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed change file application for launcher.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Updated to programs based file browser.[CR]- Added joystick suspend option.[CR]- Minor bugfixes.[CR]- Updated dependency to newer version of module and AKL.</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added direct file launcher[CR]- Supporting new source types[CR]- Updated to programs based file browser.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added joystick suspend option.[CR]- Minor bugfixes.</news>
   </extension>
 </addon>
