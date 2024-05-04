@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.0" provider-name="chrisism">
+<addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.routing" version="0.2.3"/>
-      <import addon="script.module.akl" version="1.1.0"/>
+      <import addon="script.module.akl" version="1.1.2"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
       <provides>executable game</provides>
@@ -25,6 +25,6 @@
       <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Collections now use import rules from sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Collections now use import rules from sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR]- Fix with missing auto_scan.txt[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
   </extension>
 </addon>
