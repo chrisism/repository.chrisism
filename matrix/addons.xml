@@ -467,31 +467,6 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
   </extension>
-</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.07" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">ArcadeDB scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.arcadedb</website>
-    <source>https://github.com/chrisism/script.akl.arcadedb</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
-  </extension>
 </addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.2" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +515,30 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Simplified context menu[CR]- Separated launchers[CR]- Implemented sources[CR]- Collections now use import rules from sources[CR]- Added extra field to metadata item[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Added setting to disable view rendering notifications[CR]- Changed database migrations system[CR]- Added 'edit platform' to ROMs[CR]- Changed platform can be applied to all ROMs in a collection[CR]- AKL webservice port number can be changed through settings[CR]- Fix with missing auto_scan.txt[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Custom skin view for View ROM[CR]- More details about addon plugins[CR]- Fixed linking assets to wrong directory[CR]- Fixed category rendering[CR]- Added rebuild views option in settings dialog[CR]- Added support for PEGI rating[CR]- Fixed bug deleting collections</news>
+  </extension>
+</addon><addon id="script.akl.arcadedb" name="ArcadeDB scraper plugin for AKL" version="1.1.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.1.2" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">ArcadeDB scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.arcadedb</website>
+    <source>https://github.com/chrisism/script.akl.arcadedb</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
   </extension>
 </addon></addons>
