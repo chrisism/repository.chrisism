@@ -467,27 +467,6 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Fixed scraper[CR]- Added metacritics[CR]- Added nplayers and nplayers_online[CR]- Added rating</news>
   </extension>
-</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.2" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" version="2.22.0.1" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Library module for AKL plugin.</summary>
-    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.module.akl</website>
-    <source>https://github.com/chrisism/script.module.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Windows LNK file execution fix[CR]- Added extras fields to scraped data[CR]- Use asset filenames that are allowed by system[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings</news>
-  </extension>
 </addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +519,26 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Updated to work with new module version (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this ArcadeDB plugin for AKL.</news>
+  </extension>
+</addon><addon id="script.module.akl" name="Advanced Kodi Launcher Library Module" version="1.1.3" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.22.0.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library module for AKL plugin.</summary>
+    <description lang="en_GB">Python module to be used as a library for AKL plugins.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.module.akl</website>
+    <source>https://github.com/chrisism/script.module.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fix Application launcher not launching the app (fixed by: mallexxx)[CR]- Cleanup log; case insensitive APPPATH, APPBASE[CR]- Addon command utilities[CR]- Windows LNK file execution fix[CR]- Added extras fields to scraped data[CR]- Use asset filenames that are allowed by system[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings</news>
   </extension>
 </addon></addons>
