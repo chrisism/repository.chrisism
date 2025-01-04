@@ -290,32 +290,6 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fix with httpss prefix in urls[CR]- Update for new module[CR]- Added asset 'manual'[CR]- Added PEGI rating[UPPERCASE]Previous[/UPPERCASE][CR]- Updated dependencies[CR]- Fix for nplayers metadata</news>
   </extension>
-</addon><addon id="script.akl.steamgriddb" name="SteamGridDB scraper plugin for AKL" version="1.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">SteamGridDB scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL. It can scrape games from the
-    SteamGridDB database.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.steamgriddb</website>
-    <source>https://github.com/chrisism/script.akl.steamgriddb</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new module (sources)</news>
-  </extension>
 </addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +514,31 @@ from The Games DB (TGDB).
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- New addon command and args parsing[CR]- Support for new module (sources)[CR]- Added update/refresh settings command[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for trailers[CR]- Fix for ESRB ratings[CR]- Updated dependencies</news>
+  </extension>
+</addon><addon id="script.akl.steamgriddb" name="SteamGridDB scraper plugin for AKL" version="1.1.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">SteamGridDB scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It can scrape games from the
+    SteamGridDB database.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.steamgriddb</website>
+    <source>https://github.com/chrisism/script.akl.steamgriddb</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new module (sources)</news>
   </extension>
 </addon></addons>
