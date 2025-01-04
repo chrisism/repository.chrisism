@@ -200,32 +200,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.0.5" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Googlesearch scraper for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scraper plugin for AKL.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.googlesearch</website>
-    <source>https://github.com/chrisism/script.akl.googlesearch</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>First official release of this Google search plugin for AKL.</news>
-  </extension>
-</addon><addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.3.0" provider-name="chrisism">
+<addon id="resource.images.gamestudios.grayscale" name="Game Studio Icons (grayscale)" version="1.3.0" provider-name="chrisism">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0" />
@@ -540,5 +515,30 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- New addon command and args support[CR]- Added support for Moonlight-QT[CR]- Updated to new module (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
+  </extension>
+</addon><addon id="script.akl.googlesearch" name="Googlesearch scraper plugin for AKL" version="1.0.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Googlesearch scraper for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scraper plugin for AKL. It uses Google Image Search to find the images.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.googlesearch</website>
+    <source>https://github.com/chrisism/script.akl.googlesearch</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new sources[CR]- Fixed scraping by using Google API engine[CR]- Added Youtube support[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Google search plugin for AKL.</news>
   </extension>
 </addon></addons>
