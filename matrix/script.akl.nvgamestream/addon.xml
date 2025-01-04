@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.2.0" provider-name="chrisism">
+<addon id="script.akl.nvgamestream" name="Nvidia Gamestream plugin for AKL" version="1.2.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.akl" version="1.1.0"/>
+      <import addon="script.module.akl" version="1.2.0"/>
       <import addon="script.module.pycryptodome" version="3.4.3"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
@@ -23,6 +23,6 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <icon>media/icon.png</icon>
       <fanart>media/fanart.jpg</fanart>
     </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for Moonlight-QT[CR]- Updated to new module (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- New addon command and args support[CR]- Added support for Moonlight-QT[CR]- Updated to new module (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
   </extension>
 </addon>
