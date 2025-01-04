@@ -241,32 +241,6 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Steam scanner, scraper and launcher for AKL plugin.</summary>
-    <description lang="en_GB">
-    This module can be used as a scanner, scraper and launcher plugin for AKL. It can scan and launch games from your 
-Steam library. It can scrape assets for games available on Steam.
-    </description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/script.akl.steam</website>
-    <source>https://github.com/chrisism/script.akl.steam</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for new sources[CR]- Added scraper[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Steam plugin for AKL.</news>
-  </extension>
 </addon><addon id="script.akl.screenscraper" name="Screenscraper scraper plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +514,31 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- New addon command and args support[CR]- Added support for Moonlight-QT[CR]- Updated to new module (sources)[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added support for Sunshine gamestream server[CR]- Added more system data from scanning[CR]- Certificate and pairing tools now available as pip module</news>
+  </extension>
+</addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.1" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Steam scanner, scraper and launcher for AKL plugin.</summary>
+    <description lang="en_GB">
+    This module can be used as a scanner, scraper and launcher plugin for AKL. It can scan and launch games from your 
+Steam library. It can scrape assets for games available on Steam.
+    </description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/script.akl.steam</website>
+    <source>https://github.com/chrisism/script.akl.steam</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added support for new sources[CR]- Added scraper[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Steam plugin for AKL.</news>
   </extension>
 </addon></addons>
