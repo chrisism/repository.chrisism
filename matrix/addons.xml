@@ -241,29 +241,6 @@
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.2.0" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.akl" version="1.1.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-      <provides>game</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Default plugins for AKL.</summary>
-    <description lang="en_GB">Default plugins for AKL. Needed to have basic functionality with AKL. Supports scanning directories for certain files. Launching these files using selected applications.</description>
-    <platform>all</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizizz@gmail.com</email>
-    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
-    <website>https://github.com/chrisism/script.akl.defaults</website>
-    <source>https://github.com/chrisism/script.akl.defaults</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added direct file launcher[CR]- Supporting new source types[CR]- Updated to programs based file browser.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added joystick suspend option.[CR]- Minor bugfixes.</news>
-  </extension>
 </addon><addon id="script.akl.steam" name="Steam library plugin for AKL" version="1.1.0" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +517,28 @@ from The Games DB (TGDB).
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for sources (new module)[CR]- Updated to support new args approach for executors.[CR]- Fixed Android execution for Kodi Nexus.[CR]- Android storage issue fixes[CR][UPPERCASE]Previous releases[/UPPERCASE][CR]- Updated documentation.[CR]- Optimized addon settings.[CR]- Updated dependencies.[CR]- Joystick system now suspendable.</news>
+  </extension>
+</addon><addon id="script.akl.defaults" name="Advanced Kodi Launcher: Default plugins" version="1.3.0" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.akl" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+      <provides>game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Default plugins for AKL.</summary>
+    <description lang="en_GB">Default plugins for AKL. Needed to have basic functionality with AKL. Supports scanning directories for certain files. Launching these files using selected applications.</description>
+    <platform>all</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizizz@gmail.com</email>
+    <forum>http://forum.kodi.tv/showthread.php?tid=287826</forum>
+    <website>https://github.com/chrisism/script.akl.defaults</website>
+    <source>https://github.com/chrisism/script.akl.defaults</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Added direct file launcher[CR]- Supporting new source types[CR]- Updated to programs based file browser.[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Added joystick suspend option.[CR]- Minor bugfixes.</news>
   </extension>
 </addon></addons>
