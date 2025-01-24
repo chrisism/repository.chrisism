@@ -237,34 +237,6 @@
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fix Application launcher not launching the app (fixed by: mallexxx)[CR]- Cleanup log; case insensitive APPPATH, APPBASE[CR]- Addon command utilities[CR]- Windows LNK file execution fix[CR]- Added extras fields to scraped data[CR]- Use asset filenames that are allowed by system[CR]- Generalized addon commands and parsing[CR][UPPERCASE]In previous releases[/UPPERCASE][CR]- Don't download assets of extension type [I]url[/I][CR]- Updated media/artwork[CR]- Fixed ok dialog issue with timer[CR]- Added PEGI rating support[CR]- Less logging by requests module, making logs more secure[CR]- Added file dialogs support[CR]- Fix for storing single ROM launcher settings</news>
   </extension>
-</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.2" provider-name="chrisism">
-  <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.routing" version="0.2.3" />
-      <import addon="script.module.akl" version="1.2.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-      <provides>executable game</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
-    <description lang="en_GB">Gaming front-end and general application launcher for Kodi. Supports scanning, scraping and launching of ROMs and games, using many plugins. Easily extendable with lots of plugins or create your own.</description>
-    <platform>android freebsd ios linux osx windows</platform>
-    <license>GNU General Public License version 2</license>
-    <email>crizzz@gmail.com</email>
-    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
-    <website>https://github.com/chrisism/plugin.program.akl</website>
-    <source>https://github.com/chrisism/plugin.program.akl</source>
-    <assets>
-      <icon>media/icon.png</icon>
-      <fanart>media/fanart.jpg</fanart>
-      <screenshot>media/arcticzephyr_reloaded_01_companies.jpg</screenshot>
-      <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
-      <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
-    </assets>
-    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed launching standalone sources[CR]- Several fixes by mallexxx[CR]- Moved default asset paths to edit assets/artwork menu[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Separated launchers[CR]- Implemented sources[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Collections now use import rules from sources</news>
-  </extension>
 </addon><addon id="script.akl.tgdbscraper" name="TGDB scraper for AKL" version="1.1.1" provider-name="chrisism">
   <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -540,5 +512,33 @@ Nvidia Gamestream library. This plugin needs and is executed from within AKL.
       <fanart>media/fanart.jpg</fanart>
     </assets>
     <news>[UPPERCASE]Current[/UPPERCASE][CR]- Support for new sources[CR]- Fixed scraping by using Google API engine[CR]- Added Youtube support[CR][UPPERCASE]Previous[/UPPERCASE][CR]First official release of this Google search plugin for AKL.</news>
+  </extension>
+</addon><addon id="plugin.program.akl" name="Advanced Kodi Launcher" version="1.5.3" provider-name="chrisism">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.routing" version="0.2.3" />
+      <import addon="script.module.akl" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+      <provides>executable game</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Start any emulators/apps from Kodi.</summary>
+    <description lang="en_GB">Gaming front-end and general application launcher for Kodi. Supports scanning, scraping and launching of ROMs and games, using many plugins. Easily extendable with lots of plugins or create your own.</description>
+    <platform>android freebsd ios linux osx windows</platform>
+    <license>GNU General Public License version 2</license>
+    <email>crizzz@gmail.com</email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=366351</forum>
+    <website>https://github.com/chrisism/plugin.program.akl</website>
+    <source>https://github.com/chrisism/plugin.program.akl</source>
+    <assets>
+      <icon>media/icon.png</icon>
+      <fanart>media/fanart.jpg</fanart>
+      <screenshot>media/arcticzephyr_reloaded_01_companies.jpg</screenshot>
+      <screenshot>media/arcticzephyr_reloaded_02_systems.jpg</screenshot>
+      <screenshot>media/arcticzephyr_reloaded_03_games.jpg</screenshot>
+    </assets>
+    <news>[UPPERCASE]Current[/UPPERCASE][CR]- Fixed launching standalone sources[CR]- Several fixes by mallexxx[CR]- Moved default asset paths to edit assets/artwork menu[CR][UPPERCASE]Previous[/UPPERCASE][CR]- Separated launchers[CR]- Implemented sources[CR]- Search term mode applicable for multi ROM scraping[CR]- Refactoring of default asset mapping[CR]- Collections now use import rules from sources</news>
   </extension>
 </addon></addons>
